@@ -99,4 +99,4 @@ end
 function Xt_invA_X(a::PDSparseMat, x::DenseMatrix{Float64})
     z = a \ x
     At_mul_B(x, z)
-end
+end 
