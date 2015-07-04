@@ -45,4 +45,4 @@ end
 function invquad(a::AbstractPDMat, x::DenseMatrix{Float64})
     @check_argdims dim(a) == size(x, 1)
     invquad!(Array(Float64, size(x,2)), a, x)
-end
+end 
